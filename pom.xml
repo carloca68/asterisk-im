@@ -13,9 +13,18 @@
         <url>http://www.jivesoftware.com</url>
     </organization>
     <properties>
-        <smack-version>3.1.0</smack-version>
+        <smack-version>3.2.1</smack-version>
         <openfire-version>3.6.2</openfire-version>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+    <repositories>
+        <repository>
+            <id>gltd.net</id>
+            <url>http://repo.gltd.net/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
     <developers>
         <developer>
             <name>Stefan Reuter</name>
@@ -92,7 +101,7 @@
             <dependency>
                 <groupId>org.asteriskjava</groupId>
                 <artifactId>asterisk-java</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0.M3</version>
                 <exclusions>
                     <exclusion>
                         <groupId>log4j</groupId>
